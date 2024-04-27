@@ -16,7 +16,7 @@ const app = express();
 // Middlewares de seguridad
 app.use(helmet());
 app.use(cors({
-  origin: 'https://sprout-af636.web.app/',
+  origin: 'https://sprout-backend.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
